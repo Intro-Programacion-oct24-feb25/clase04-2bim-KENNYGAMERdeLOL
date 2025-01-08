@@ -10,7 +10,14 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+/*
+    En el main tengo tres valores de tipo entero  y son arreglos,
+    luego tenemos 2 ciclos PARA(for) uno esta dentro del otro y en ellos declaro
+    el arreglo 1 y arreglo 2, y despues de eso tenemos arreglo3 el cual esta llamando
+    una funcion la cual va a realizar uan operacion entre el arreglo1 y arreglo2 para 
+    obtener valores a partir de esta funcion.
+*/
+    
     public static void main(String[] args) {
         // 
         

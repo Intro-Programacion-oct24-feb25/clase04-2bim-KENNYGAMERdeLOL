@@ -24,15 +24,19 @@ public class Ejemplo08 {
         valor1 = entrada.nextInt();       
         System.out.println("Ingrese el limite de la tabla");
         limite = entrada.nextInt();     
-         System.out.println("Ingrese una opcion");
+         System.out.println("Ingrese 1 para generar la tabla de suma");
         opcion = entrada.nextInt();   
+         System.out.println("Ingrese 2 para generar la tabla de multiplicaion");
+        opcion = entrada.nextInt();
         switch(opcion){
             case 1:
-              mensajeSuma = obtenerTablaSumar(valor1, limite);
+              mensajeSuma = obtenerTablaSumar(limite, valor1);
               System.out.printf("%s\n", mensajeSuma);
+              break;
             case 2:
-              mensajeSumaDos = obtenerTablaMultiplicar(valor1, limite);
+              mensajeSumaDos = obtenerTablaMultiplicar(limite, valor1);
               System.out.printf("%s\n", mensajeSumaDos);
+              break;
         } 
         // 
         
