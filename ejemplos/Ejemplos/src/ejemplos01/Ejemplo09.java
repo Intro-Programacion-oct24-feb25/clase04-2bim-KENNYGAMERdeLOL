@@ -15,28 +15,37 @@ public class Ejemplo09 {
         // 
         String mensajeSuma;
         String mensajeSumaDos;
+        String mensajeSumaTres;
         mensajeSuma = obtenerSuma(10, 9);
         mensajeSumaDos = obtenerSuma(10);
-        
+        mensajeSumaTres = obtenerSuma(2, 3, 9);
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%s\n", mensajeSumaDos);
+        System.out.printf("%s\n", mensajeSumaTres);
     }
-        
-    public static String obtenerSuma(int operandor1, int operandor2){
+
+    public static String obtenerSuma(int operandor1, int operandor2) {
         int suma;
         String cadena = "";
         suma = operandor1 + operandor2;
         cadena = String.format("%s%d\n", cadena, suma);
-        return cadena;        
+        return cadena;
     }
-    
-    public static String obtenerSuma(int operandor1){
+
+    public static String obtenerSuma(int operandor1) {
         int suma;
         String cadena = "";
         suma = operandor1 + operandor1;
         cadena = String.format("%s%d\n", cadena, suma);
-        return cadena;        
-        
+        return cadena;
+
     }
-    
-}
+
+    public static String obtenerSuma(int operador1, int operador2, int o) {
+        int suma;
+        String cadena = "";
+        suma = operador1 + operador2 + o;
+        cadena = String.format("%s%d\n", cadena, suma);
+        return cadena;
+    }
+} 
